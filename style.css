@@ -6,7 +6,12 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 body{
+  display: block;
+  align-items: center;
+}
+.bigbody{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,4 +119,12 @@ body{
 }
 .toscale{
   transform: scale(3);
+}
+.title-box {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #596cda;
 }
